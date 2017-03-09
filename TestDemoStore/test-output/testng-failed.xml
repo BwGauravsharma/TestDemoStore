@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test_Fireforx(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.robot.frameowrk.TestDemoStore.NewTest1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.robot.frameowrk.TestDemoStore.NewTest1 -->
+    </classes>
+  </test> <!-- Test_Fireforx(failed) -->
+  <test name="Test_Chrome(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.robot.frameowrk.TestDemoStore.NewTest1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Test1" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.robot.frameowrk.TestDemoStore.NewTest1 -->
+    </classes>
+  </test> <!-- Test_Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
