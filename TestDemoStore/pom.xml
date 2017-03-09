@@ -79,9 +79,12 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-			
-			
-			
+
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+			</plugin>
+
 		</plugins>
 	</build>
 
