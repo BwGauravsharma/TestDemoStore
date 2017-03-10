@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15352" started-at="2017-03-01T14:05:22Z" finished-at="2017-03-01T14:05:37Z">
+  <suite name="Suite" duration-ms="23362" started-at="2017-03-10T09:15:12Z" finished-at="2017-03-10T09:15:36Z">
     <groups>
     </groups>
-    <test name="Test_Fireforx" duration-ms="15352" started-at="2017-03-01T14:05:22Z" finished-at="2017-03-01T14:05:37Z">
+    <test name="Test_Fireforx" duration-ms="23362" started-at="2017-03-10T09:15:12Z" finished-at="2017-03-10T09:15:36Z">
       <class name="com.robot.frameowrk.TestDemoStore.NewTest1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@3e77a1ed]" name="beforeMethod" is-config="true" duration-ms="15083" started-at="2017-03-01T19:35:22Z" finished-at="2017-03-01T19:35:37Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@4d339552]" name="beforeMethod" is-config="true" duration-ms="22935" started-at="2017-03-10T14:45:12Z" finished-at="2017-03-10T14:45:35Z">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@3e77a1ed]" name="Test1" duration-ms="244" started-at="2017-03-01T19:35:37Z" finished-at="2017-03-01T19:35:37Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@4d339552]" name="Test1" duration-ms="384" started-at="2017-03-10T14:45:35Z" finished-at="2017-03-10T14:45:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@3e77a1ed]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-03-01T19:35:37Z" finished-at="2017-03-01T19:35:37Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@4d339552]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-03-10T14:45:36Z" finished-at="2017-03-10T14:45:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test1 status=SUCCESS method=NewTest1.Test1()[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@3e77a1ed] output={null}]]]>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=NewTest1.Test1()[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@4d339552] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@3e77a1ed]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-03-01T19:35:37Z" finished-at="2017-03-01T19:35:37Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.robot.frameowrk.TestDemoStore.NewTest1@4d339552]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-03-10T14:45:36Z" finished-at="2017-03-10T14:45:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
