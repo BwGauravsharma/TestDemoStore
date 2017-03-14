@@ -94,7 +94,7 @@ public class NewTest1 {
 		
 		//Assert.assertEquals("1ONLINE STORE | Toolsqa Dummy Test site", title);
 		
-		if(title.equals("1ONLINE STORE | Toolsqa Dummy Test site")){
+		if(title.equals("ONLINE STORE | Toolsqa Dummy Test site")){
 			
 			extenttest.log(LogStatus.PASS, "Title verified");
 			
