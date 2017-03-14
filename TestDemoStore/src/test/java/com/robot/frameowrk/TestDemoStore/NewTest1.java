@@ -113,7 +113,7 @@ public class NewTest1 {
 	}
 	
 	@Parameters({"browser"})
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void Test2(String browser) throws InterruptedException {
 
 		ExtentTest extenttest1 = reporter.startTest(Thread.currentThread().getStackTrace()[1].getMethodName()+ " : " +browser);
@@ -146,6 +146,8 @@ public class NewTest1 {
 		
 		reporter.endTest(extenttest1);
 		reporter.flush();
+		
+		Assert.assertEquals("ONLINE STORE | Toolsqa Dummy Test site", title);
 		
 	}
 
