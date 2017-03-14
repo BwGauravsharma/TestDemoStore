@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -94,7 +95,7 @@ public class NewTest1 {
 		
 		//Assert.assertEquals("1ONLINE STORE | Toolsqa Dummy Test site", title);
 		
-		if(title.equals("ONLINE STORE | Toolsqa Dummy Test site")){
+		if(title.equals("1ONLINE STORE | Toolsqa Dummy Test site")){
 			
 			extenttest.log(LogStatus.PASS, "Title verified");
 			
@@ -106,6 +107,8 @@ public class NewTest1 {
 		
 		reporter.endTest(extenttest);
 		reporter.flush();
+		
+		Assert.assertEquals("1ONLINE STORE | Toolsqa Dummy Test site", title);
 
 	}
 	
